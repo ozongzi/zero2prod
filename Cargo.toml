@@ -1,6 +1,13 @@
 [package]
 name = "zero2prod"
 version = "0.1.0"
+authors = ["ozongzi <ozongzi@icloud.com>"]
 edition = "2024"
 
 [dependencies]
+actix-web = "4"
+serde = { version = "1", features = ["derive"]}
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+[dev-dependencies]
+reqwest = "0.12.22"

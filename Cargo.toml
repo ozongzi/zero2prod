@@ -26,7 +26,8 @@ validator = "0.20"
 version = "0.8"
 default-features = false
 features = [
-    "runtime-tokio-rustls",
+    "runtime-tokio",
+    "tls-rustls-ring-webpki",
     "macros",
     "postgres",
     "uuid",

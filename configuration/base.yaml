@@ -6,3 +6,7 @@ database:
   username: "postgres"
   password: "password"
   database_name: "newsletter"
+email_client:
+  base_url: "https://sandbox.api.mailtrap.io/api/send/4381644"
+  sender_email: "hello@example.com"
+  authorization_token: be394210d541d69de235318ddd0b807a
